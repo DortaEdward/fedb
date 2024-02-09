@@ -1,5 +1,5 @@
 
-type Card = {
+export type Card = {
   card_id: string;
   name: string;
   type: string;

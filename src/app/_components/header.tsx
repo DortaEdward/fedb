@@ -1,6 +1,6 @@
+
 import { SignInButton, UserButton, auth } from "@clerk/nextjs";
 import Link from "next/link";
-
 
 export default function Header() {
   const { userId, user } = auth()
