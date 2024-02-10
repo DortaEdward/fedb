@@ -13,7 +13,7 @@ export default function ToggleView() {
   }
 
   return (
-    <div className="p-10">
+    <div className="py-2 pr-20">
       {
         searchParams.get("view") == "grid"
           ?

@@ -3,7 +3,7 @@ export type Card = {
   card_id: string;
   name: string;
   type: string;
-  color: string[];
+  colors: string[];
   cost: string;
   traits: string[];
   attribute: null | string;

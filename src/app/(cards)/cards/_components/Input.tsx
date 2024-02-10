@@ -1,14 +1,13 @@
-
 type Props = {
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void
-  value: string | number | undefined
+  value: string
   name: string
 }
 
 export default function SearchInput({
   handleChange,
   value,
-  name
+  name,
 }: Props) {
   return (
     <fieldset className="relative px-2 py-4 bg-white">
